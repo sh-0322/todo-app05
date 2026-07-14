@@ -17,7 +17,7 @@ spec:
       imagePullSecrets:
       - name: ecr-secret
       containers:
-      - name: todo-app99
-        image: 183071452060.dkr.ecr.ap-northeast-2.amazonaws.com/todo-app05:5facb17
+      - name: todo-app05
+        image: 183071452060.dkr.ecr.ap-northeast-2.amazonaws.com/todo-app05:latest
         ports:
         - containerPort: 5000
