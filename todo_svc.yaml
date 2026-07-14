@@ -8,6 +8,6 @@ spec:
     app: todo-app05
   ports:
     - protocol: TCP
-      port: 8040
+      port: 8045
       targetPort: 5000
 
